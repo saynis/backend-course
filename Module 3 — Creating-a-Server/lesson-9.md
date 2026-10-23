@@ -62,6 +62,7 @@ Visit `http://localhost:3000/` and `http://localhost:3000/about` — notice each
 - Forgetting `app.listen()` — without it, the server never actually starts.
 - Forgetting `"type": "module"` in `package.json` when using `import express from "express"`.
 - Defining a route with the wrong path spelling (`/About` vs `/about`) — Express route paths are case-sensitive.
+
 ### 7. Mini practice
  
 Add a third route, `/contact`, that returns a JSON object with an `email` field.
