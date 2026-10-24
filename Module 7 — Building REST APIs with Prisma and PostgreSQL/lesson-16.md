@@ -50,8 +50,8 @@ npm pkg set type=module
 **Step 2 — create the database.** Open `psql` as your PostgreSQL admin user and run:
  
 ```sql
-CREATE USER student WITH PASSWORD 'change_me' CREATEDB;
-CREATE DATABASE school_api OWNER student;
+
+CREATE DATABASE school_api ;
 ```
  
 (`CREATEDB` is needed because `prisma migrate dev` uses a temporary "shadow" database. Use your own password, not `change_me`.)
